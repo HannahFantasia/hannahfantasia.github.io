@@ -20,7 +20,7 @@ class ProjectItem {
   }
 }
 
-// Determine the parent directory (e.g., "animation" or "interaction")
+// Determine the parent directory (e.g., "events" or "photography")
 const pathParts = window.location.pathname.split('/');
 const parentDir = pathParts[pathParts.indexOf('projects') + 1];
 
